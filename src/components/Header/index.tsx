@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, NavLink } from "./styles";
 
 import { Link } from "react-scroll";
 
@@ -13,57 +13,57 @@ export function Header() {
         <ul>
           <li>
             <a href="">
-              <Link
+              <NavLink
                 activeClass="active"
-                smooth
-                spy
+                smooth={true}
+                spy={true}
                 to="dashboard"
                 className="active"
               >
                 Home
-              </Link>
+              </NavLink>
             </a>
           </li>
 
           <li>
             <a href="">
-              <Link
+              <NavLink
                 activeClass="active"
-                smooth
-                spy
+                smooth={true}
+                spy={true}
                 to="about"
                 className="active"
               >
                 Sobre
-              </Link>
+              </NavLink>
             </a>
           </li>
 
           <li>
             <a href="">
-              <Link
+              <NavLink
                 activeClass="active"
-                smooth
-                spy
+                smooth={true}
+                spy={true}
                 to="skills"
                 className="active"
               >
                 Habilidades
-              </Link>
+              </NavLink>
             </a>
           </li>
 
           <li>
             <a href="">
-              <Link
+              <NavLink
                 activeClass="active"
-                smooth
-                spy
+                smooth={true}
                 to="contact"
+                spy={true}
                 className="active"
               >
                 Contato
-              </Link>
+              </NavLink>
             </a>
           </li>
         </ul>

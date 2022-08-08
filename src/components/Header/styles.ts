@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Link } from "react-scroll";
+
 export const Container = styled.header`
   background-color: var(--white);
   width: 100%;
@@ -27,7 +29,7 @@ export const Container = styled.header`
     text-decoration: none;
   }
 
-  li {
+  /* li {
     .active {
       text-decoration: none;
       color: var(--blue-700);
@@ -42,7 +44,7 @@ export const Container = styled.header`
       color: var(--gray-100);
       transition: 0.2s;
     }
-  }
+  } */
 
   li {
     margin: 0 15px;
@@ -66,5 +68,25 @@ export const Container = styled.header`
     a {
       padding: 0;
     }
+  }
+`;
+
+export const NavLink = styled(Link)`
+  text-decoration: none;
+  color: var(--blue-700);
+  text-align: center;
+  font-size: 1rem;
+
+  cursor: pointer;
+  padding: 14px 16px;
+
+  :hover {
+    background-color: var(--purple-700);
+    color: var(--gray-100);
+    transition: 0.2s;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0;
   }
 `;
