@@ -135,6 +135,7 @@ export const About = styled.div`
     flex-direction: column;
     width: 100%;
 
+    padding: 1rem;
     > div {
     }
 
@@ -163,11 +164,9 @@ export const ContainerSkills = styled.div`
   flex-direction: column;
   align-items: center;
 
-  width: 100%;
-  height: auto;
-
   > div {
     display: flex;
+    justify-content: center;
 
     > h1 {
       color: var(--gray-100);
@@ -178,23 +177,30 @@ export const ContainerSkills = styled.div`
       border-bottom: solid 4.5px var(--blue-300);
     }
   }
+
+  @media (max-width: 768px) {
+    > div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+    }
+  }
 `;
 
 export const ContentSkills = styled.div`
   display: flex;
-  justify-content: center;
-`;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-export const Skills = styled.div`
-  max-width: 75rem;
-  /* espaçamento para o conteudo n]ao ficar colodo*/
+  height: 100%;
+  width: 100%;
 
-  margin: 2rem auto;
-  /* espaçamento para o conteudo n]ao ficar colodo*/
-  padding: 0 2rem;
+  padding: 3rem;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  gap: 1rem;
-  align-items: flex-start;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 1rem;
+  }
 `;

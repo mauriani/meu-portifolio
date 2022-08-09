@@ -4,7 +4,6 @@ import {
   About,
   ContainerSkills,
   ContentSkills,
-  Skills,
 } from "./styles";
 
 import { Header } from "../../components/Header";
@@ -63,9 +62,9 @@ export function Dashboard() {
           </div>
         </ContainerSkills>
 
-        <Skills>
+        <ContentSkills>
           <Card />
-        </Skills>
+        </ContentSkills>
       </section>
 
       <section id="contact"></section>

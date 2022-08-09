@@ -5,15 +5,17 @@ export interface IconProps {
 }
 
 export const CardSkill = styled.div<IconProps>`
-  height: 8rem;
-  width: 28rem;
-
   display: flex;
   flex-direction: row;
+
+  flex: 27%;
+  height: 9.5rem;
+  gap: 10px;
 
   align-items: center;
 
   padding: 3px;
+  margin-left: 8px;
 
   background: var(--gray-900);
   border-radius: 10px;
@@ -29,6 +31,10 @@ export const CardSkill = styled.div<IconProps>`
   }
 
   margin-top: 1rem;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
 `;
 
 export const IconContainer = styled.div`
@@ -41,6 +47,10 @@ export const IconContainer = styled.div`
   width: 20%;
 
   padding: 8px;
+
+  svg {
+    color: var(--gray-200);
+  }
 `;
 
 export const TextContainer = styled.div`

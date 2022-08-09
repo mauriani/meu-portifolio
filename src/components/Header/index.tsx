@@ -1,7 +1,5 @@
 import { Container, NavLink } from "./styles";
 
-import { Link } from "react-scroll";
-
 import logo from "../../assets/rocket.svg";
 
 export function Header() {
