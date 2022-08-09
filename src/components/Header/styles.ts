@@ -30,7 +30,7 @@ export const Container = styled.header`
   }
 
   li {
-    margin: 0 15px;
+    margin: 0 0.938rem;
   }
 
   li:first-child {
@@ -43,6 +43,10 @@ export const Container = styled.header`
 
   @media (max-width: 768px) {
     flex-direction: column;
+
+    li {
+      margin: 0 0.688rem;
+    }
 
     img {
       margin-bottom: 1rem;

@@ -11,6 +11,7 @@ import { Card } from "../../components/Card";
 
 import person from "../../assets/mauriani.png";
 import avatar from "../../assets/avatar.png";
+import gatin from "../../assets/gatin-rocket.png";
 
 export function Dashboard() {
   return (
@@ -67,6 +68,11 @@ export function Dashboard() {
         </ContentSkills>
       </section>
 
+      {/* <section id="projects">
+        <div>
+          <img src={gatin} alt="" />
+        </div>
+      </section> */}
       <section id="contact"></section>
     </main>
   );

@@ -10,59 +10,63 @@ export function Header() {
       <nav>
         <ul>
           <li>
-            <a href="">
-              <NavLink
-                activeClass="active"
-                smooth={true}
-                spy={true}
-                to="dashboard"
-                className="active"
-              >
-                Home
-              </NavLink>
-            </a>
+            <NavLink
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              to="dashboard"
+              className="active"
+            >
+              Home
+            </NavLink>
           </li>
 
           <li>
-            <a href="">
-              <NavLink
-                activeClass="active"
-                smooth={true}
-                spy={true}
-                to="about"
-                className="active"
-              >
-                Sobre
-              </NavLink>
-            </a>
+            <NavLink
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              to="about"
+              className="active"
+            >
+              Sobre
+            </NavLink>
           </li>
 
           <li>
-            <a href="">
-              <NavLink
-                activeClass="active"
-                smooth={true}
-                spy={true}
-                to="skills"
-                className="active"
-              >
-                Habilidades
-              </NavLink>
-            </a>
+            <NavLink
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              to="skills"
+              className="active"
+            >
+              Habilidades
+            </NavLink>
           </li>
 
           <li>
-            <a href="">
-              <NavLink
-                activeClass="active"
-                smooth={true}
-                to="contact"
-                spy={true}
-                className="active"
-              >
-                Contato
-              </NavLink>
-            </a>
+            <NavLink
+              activeClass="active"
+              smooth={true}
+              to="projects"
+              spy={true}
+              className="active"
+            >
+              Projetos
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              activeClass="active"
+              smooth={true}
+              to="contact"
+              spy={true}
+              className="active"
+            >
+              Contato
+            </NavLink>
           </li>
         </ul>
       </nav>
