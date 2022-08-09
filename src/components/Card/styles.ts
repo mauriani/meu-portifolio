@@ -15,7 +15,7 @@ export const CardSkill = styled.div<IconProps>`
 
   padding: 3px;
 
-  background: var(--gray-100);
+  background: var(--gray-900);
   border-radius: 10px;
 
   &:hover {
@@ -40,7 +40,7 @@ export const IconContainer = styled.div`
 
   width: 20%;
 
-  padding: 3px;
+  padding: 8px;
 `;
 
 export const TextContainer = styled.div`
@@ -55,13 +55,13 @@ export const TextContainer = styled.div`
     font-size: 1.4rem;
     font-weight: 400;
 
-    color: var(--gray-900);
+    color: var(--gray-100);
   }
 
   p {
     font-weight: 300;
     font-size: 0.8rem;
-    color: var(--gray-900);
+    color: var(--gray-300);
 
     flex-shrink: 1;
   }

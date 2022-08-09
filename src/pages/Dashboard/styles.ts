@@ -28,15 +28,13 @@ export const Container = styled.main`
 
   height: 100%;
 
-  padding: 3rem;
-
-  background-image: url(${imageBackground});
+  padding: 0 3rem;
 
   div {
     padding: 0 1rem;
 
     h1 {
-      color: var(--gray-400);
+      color: var(--gray-100);
       font-size: 2.5rem;
       font-weight: 300;
 
@@ -165,82 +163,38 @@ export const ContainerSkills = styled.div`
   flex-direction: column;
   align-items: center;
 
+  width: 100%;
+  height: auto;
+
   > div {
     display: flex;
 
     > h1 {
-      color: var(--gray-400);
+      color: var(--gray-100);
       font-size: 2.5rem;
       font-weight: 300;
       margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 8px;
       border-bottom: solid 4.5px var(--blue-300);
-      margin-bottom: 2rem;
     }
   }
+`;
+
+export const ContentSkills = styled.div`
+  display: flex;
+  justify-content: center;
 `;
 
 export const Skills = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  max-width: 75rem;
+  /* espaçamento para o conteudo n]ao ficar colodo*/
 
-  height: 100%;
-  width: 100%;
+  margin: 2rem auto;
+  /* espaçamento para o conteudo n]ao ficar colodo*/
+  padding: 0 2rem;
 
-  padding: 3rem;
-
-  background-image: url(${imageBackground});
-`;
-
-export const CardSkill = styled.div`
-  height: 10rem;
-  width: 27rem;
-
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-
-  padding: 3px;
-
-  border: 8px solid;
-  border-image: linear-gradient(45deg, var(--purple-300), var(--yellow-300)) 1;
-  border-radius: 1rem;
-
-  margin-top: 1rem;
-`;
-
-export const IconContainer = styled.div`
-  background: red;
-
-  svg {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-`;
-
-export const TextContainer = styled.div`
-  div {
-    display: flex;
-    flex-direction: column;
-    background: blue;
-
-    flex-shrink: 1;
-    flex-grow: 1;
-
-    h1 {
-      font-size: 1.4rem;
-      font-weight: 400;
-
-      color: var(--gray-900);
-    }
-
-    p {
-      font-weight: 300;
-      font-size: 0.8rem;
-      color: var(--gray-900);
-    }
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const Container = styled.header`
-  background-color: var(--white);
+  background-color: var(--gray-850);
   width: 100%;
 
   display: flex;
@@ -28,23 +28,6 @@ export const Container = styled.header`
   a {
     text-decoration: none;
   }
-
-  /* li {
-    .active {
-      text-decoration: none;
-      color: var(--blue-700);
-      text-align: center;
-      font-size: 1rem;
-
-      cursor: pointer;
-      padding: 14px 16px;
-    }
-    .active:hover {
-      background-color: var(--purple-700);
-      color: var(--gray-100);
-      transition: 0.2s;
-    }
-  } */
 
   li {
     margin: 0 15px;
@@ -73,7 +56,7 @@ export const Container = styled.header`
 
 export const NavLink = styled(Link)`
   text-decoration: none;
-  color: var(--blue-700);
+  color: var(--white);
   text-align: center;
   font-size: 1rem;
 

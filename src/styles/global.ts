@@ -14,9 +14,10 @@ export const GlobalStyle = createGlobalStyle`
   --gray-700: #0d0d0d;
   --gray-800: #202024;
   --gray-850: #1e232a;
+  --gray-870: #191920;
   --gray-900: #121214;
-  --gray-950: #06050b
-  
+  --gray-950: #06050b;
+
 
   --blue-300: #4ea8de;
   --blue-700: #1e6f9f;
@@ -45,8 +46,8 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background: var(--gray-150);
-  color: var(--gray-300);
+  background: var(--gray-870);
+  color: var(--white);
   -webkit-font-smoothing: antialiased;
 }
 

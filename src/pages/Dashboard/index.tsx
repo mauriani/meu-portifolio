@@ -3,6 +3,7 @@ import {
   PhotoContainer,
   About,
   ContainerSkills,
+  ContentSkills,
   Skills,
 } from "./styles";
 
@@ -60,11 +61,11 @@ export function Dashboard() {
           <div>
             <h1>Habilidades</h1>
           </div>
-
-          <Skills>
-            <Card />
-          </Skills>
         </ContainerSkills>
+
+        <Skills>
+          <Card />
+        </Skills>
       </section>
 
       <section id="contact"></section>
