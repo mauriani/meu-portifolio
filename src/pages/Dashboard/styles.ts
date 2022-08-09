@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import imageBackground from "../../assets/background.png";
 
 const FadeInAnimation = keyframes`  
  0% {
@@ -104,7 +103,7 @@ export const About = styled.div`
       font-size: 2.5rem;
       font-weight: 300;
       margin-bottom: 1rem;
-      border-bottom: solid 4.5px var(--blue-300);
+      border-bottom: solid 4.5px var(--purple-300);
       margin-bottom: 2rem;
     }
   }
@@ -174,7 +173,7 @@ export const ContainerSkills = styled.div`
       font-weight: 300;
       margin-top: 1rem;
       margin-bottom: 8px;
-      border-bottom: solid 4.5px var(--blue-300);
+      border-bottom: solid 4.5px var(--purple-300);
     }
   }
 
@@ -197,7 +196,7 @@ export const ContentSkills = styled.div`
   height: 100%;
   width: 100%;
 
-  padding: 3rem;
+  padding: 1rem 3rem;
 
   @media (max-width: 768px) {
     flex-direction: column;

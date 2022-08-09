@@ -22,6 +22,7 @@ export const CardSkill = styled.div<IconProps>`
 
   &:hover {
     transition: all ease-in-out 0.3s;
+
     border: 8px solid;
     border-image: linear-gradient(45deg, var(--purple-300), var(--yellow-300)) 1;
   }
