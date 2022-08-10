@@ -52,7 +52,7 @@ export const Card = styled.figure`
       justify-content: center;
       margin: 10px 0 0;
       padding: 10px 30px;
-      background-color: #1abc9c;
+      background-color: var(--cyan-green-500);
       border: none;
       border-radius: 5px;
       color: var(--white);

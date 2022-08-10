@@ -90,13 +90,14 @@ export function Dashboard() {
               <a href="https://github.com/mauriani">GitHub</a>
             </h1>
           </Footer>
-
-          <div>
-            <img src={gatin} alt="" />
-          </div>
         </ContainerProjects>
       </section>
-      <section id="contact"></section>
+
+      <section id="contact">
+        <div>
+          <img src={gatin} alt="" />
+        </div>
+      </section>
     </main>
   );
 }
