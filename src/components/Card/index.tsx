@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-import { SkillList } from "../../utils/skillsList";
+import { SkillList } from "../../utils/SkillsList";
 
 import { CardSkill, IconContainer, TextContainer } from "./styles";
 

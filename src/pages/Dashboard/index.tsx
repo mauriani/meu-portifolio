@@ -1,9 +1,11 @@
 import {
   Container,
   PhotoContainer,
+  ContainerTitle,
   About,
-  ContainerSkills,
   ContentSkills,
+  ContainerProjects,
+  ContentProjects,
 } from "./styles";
 
 import { Header } from "../../components/Header";
@@ -13,6 +15,12 @@ import person from "../../assets/mauriani.png";
 import avatar from "../../assets/avatar.png";
 import gatin from "../../assets/gatin-rocket.png";
 
+import toDo from "../../assets/coffeeDelivery.png";
+import rentx from "../../assets/rentx.png";
+import medic from "../../assets/medic.png";
+
+import { ProjectsCard } from "../../components/ProjectsCard";
+
 export function Dashboard() {
   return (
     <main>
@@ -20,8 +28,11 @@ export function Dashboard() {
       <section id="dashboard">
         <Container>
           <div>
-            <h1>Desenvolvedora Front-End</h1>
-            <p>Mauriani Maciel Lima</p>
+            <h1>
+              😉 Ei! Eu sou <br />
+              <span>Mauriani Maciel</span>
+            </h1>
+            <p>Desenvolvedora Front-End</p>
           </div>
           <PhotoContainer>
             <img src={person} alt="" object-fit="contain" />
@@ -31,9 +42,9 @@ export function Dashboard() {
 
       <section id="about">
         <About>
-          <div>
+          <ContainerTitle>
             <h1>Sobre mim</h1>
-          </div>
+          </ContainerTitle>
 
           <div>
             <div>
@@ -57,22 +68,34 @@ export function Dashboard() {
       </section>
 
       <section id="skills">
-        <ContainerSkills>
-          <div>
-            <h1>Habilidades</h1>
-          </div>
-        </ContainerSkills>
+        <ContainerTitle>
+          <h1>Habilidades</h1>
+        </ContainerTitle>
 
         <ContentSkills>
           <Card />
         </ContentSkills>
       </section>
 
-      {/* <section id="projects">
-        <div>
-          <img src={gatin} alt="" />
-        </div>
-      </section> */}
+      <section id="projects">
+        <ContainerProjects>
+          <ContainerTitle>
+            <h1>Projetos</h1>
+          </ContainerTitle>
+
+          <ContentProjects>
+            <ProjectsCard />
+          </ContentProjects>
+
+          <h2>
+            Deseja visualizar mais projetos ? Acesse meu{" "}
+            <a href="https://github.com/mauriani">GitHub</a>
+          </h2>
+          {/* <div>
+            <img src={gatin} alt="" />
+          </div> */}
+        </ContainerProjects>
+      </section>
       <section id="contact"></section>
     </main>
   );

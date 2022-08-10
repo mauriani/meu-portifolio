@@ -35,13 +35,21 @@ export const Container = styled.main`
     h1 {
       color: var(--gray-100);
       font-size: 2.5rem;
-      font-weight: 300;
+      font-weight: 400;
 
       animation: ${FadeInAnimation} 1s 0.5s forwards;
+
+      span {
+        font-weight: 600;
+        background: -webkit-linear-gradient(var(--blue-300), var(--purple-700));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
 
     p {
       font-size: 1.5rem;
+      color: var(--gray-200);
       font-weight: 300;
       animation: ${FadeInAnimation} 1s 0.7s forwards;
     }
@@ -60,8 +68,8 @@ export const PhotoContainer = styled.div`
   animation: ${FadeImage} 2s 0.7s forwards;
 
   img {
-    height: 34rem;
-    width: 34rem;
+    height: 30rem;
+    width: 30rem;
     border-radius: 50%;
 
     margin-top: 1.25px;
@@ -85,28 +93,26 @@ export const PhotoContainer = styled.div`
   }
 `;
 
+export const ContainerTitle = styled.div`
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    color: var(--gray-100);
+    font-size: 2.5rem;
+    font-weight: 300;
+    border-bottom: solid 4.5px var(--purple-300);
+    margin: 0.5rem 0;
+  }
+`;
+
 export const About = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
   background-color: var(--gray-800);
 
-  padding: 3rem;
-
-  > div {
-    display: flex;
-    justify-content: center;
-
-    h1 {
-      color: var(--gray-100);
-      font-size: 2.5rem;
-      font-weight: 300;
-      margin-bottom: 1rem;
-      border-bottom: solid 4.5px var(--purple-300);
-      margin-bottom: 2rem;
-    }
-  }
+  padding: 1rem 3rem;
 
   div {
     display: flex;
@@ -158,35 +164,6 @@ export const About = styled.div`
   }
 `;
 
-export const ContainerSkills = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  > div {
-    display: flex;
-    justify-content: center;
-
-    > h1 {
-      color: var(--gray-100);
-      font-size: 2.5rem;
-      font-weight: 300;
-      margin-top: 1rem;
-      margin-bottom: 8px;
-      border-bottom: solid 4.5px var(--purple-300);
-    }
-  }
-
-  @media (max-width: 768px) {
-    > div {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 1rem;
-    }
-  }
-`;
-
 export const ContentSkills = styled.div`
   display: flex;
   flex-direction: row;
@@ -201,5 +178,27 @@ export const ContentSkills = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     padding: 1rem;
+  }
+`;
+
+export const ContainerProjects = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--gray-800);
+
+  padding: 1rem 3rem;
+`;
+
+export const ContentProjects = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-top: 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
   }
 `;
