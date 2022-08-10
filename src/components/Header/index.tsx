@@ -9,7 +9,7 @@ export function Header() {
 
       <nav>
         <ul>
-          <li>
+          <li tabIndex={1}>
             <NavLink
               activeClass="active"
               smooth={true}
@@ -21,7 +21,7 @@ export function Header() {
             </NavLink>
           </li>
 
-          <li>
+          <li tabIndex={2}>
             <NavLink
               activeClass="active"
               smooth={true}
@@ -33,7 +33,7 @@ export function Header() {
             </NavLink>
           </li>
 
-          <li>
+          <li tabIndex={3}>
             <NavLink
               activeClass="active"
               smooth={true}
@@ -45,7 +45,7 @@ export function Header() {
             </NavLink>
           </li>
 
-          <li>
+          <li tabIndex={4}>
             <NavLink
               activeClass="active"
               smooth={true}
@@ -57,7 +57,7 @@ export function Header() {
             </NavLink>
           </li>
 
-          <li>
+          <li tabIndex={5}>
             <NavLink
               activeClass="active"
               smooth={true}
