@@ -13,7 +13,8 @@ export const Container = styled.header`
   padding: 1.25rem 3.125rem;
 
   img {
-    width: 2.5rem;
+    height: 4rem;
+    width: 10rem;
   }
 
   nav {
@@ -68,7 +69,7 @@ export const NavLink = styled(Link)`
   padding: 14px 16px;
 
   :hover {
-    background-color: var(--purple-700);
+    background-color: var(--purple-300);
     color: var(--gray-100);
     transition: 0.2s;
   }

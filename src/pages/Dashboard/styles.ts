@@ -60,8 +60,8 @@ export const PhotoContainer = styled.div`
   animation: ${FadeImage} 2s 0.7s forwards;
 
   img {
-    height: 34.375rem;
-    width: 34.375rem;
+    height: 34rem;
+    width: 34rem;
     border-radius: 50%;
 
     margin-top: 1.25px;
