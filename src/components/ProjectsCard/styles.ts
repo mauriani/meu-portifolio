@@ -57,6 +57,13 @@ export const Card = styled.figure`
       border-radius: 5px;
       color: var(--white);
       font-size: 0.875rem;
+
+      &:hover {
+        box-shadow: 0 0 0 2px var(--cyan-green-500);
+        background-color: var(--cyan-green-500);
+        opacity: 0.5;
+        transition: 0.25s;
+      }
     }
   }
 
