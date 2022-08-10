@@ -195,9 +195,48 @@ export const ContentProjects = styled.div`
   flex-direction: row;
   justify-content: space-around;
 
-  margin-top: 2rem;
+  margin: 2rem 0;
 
   @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+`;
+
+export const Footer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem 0;
+
+  h1 {
+    font-size: 1rem;
+    font-weight: 300;
+
+    a {
+      text-decoration: none;
+      color: var(--purple-300);
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 700;
+
+      cursor: pointer;
+
+      :hover {
+        background-color: var(--purple-300);
+        color: var(--gray-100);
+        transition: 0.2s;
+        padding: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
     flex-direction: column;
     width: 100%;
   }

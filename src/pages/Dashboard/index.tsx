@@ -6,6 +6,7 @@ import {
   ContentSkills,
   ContainerProjects,
   ContentProjects,
+  Footer,
 } from "./styles";
 
 import { Header } from "../../components/Header";
@@ -14,10 +15,6 @@ import { Card } from "../../components/Card";
 import person from "../../assets/mauriani.png";
 import avatar from "../../assets/avatar.png";
 import gatin from "../../assets/gatin-rocket.png";
-
-import toDo from "../../assets/coffeeDelivery.png";
-import rentx from "../../assets/rentx.png";
-import medic from "../../assets/medic.png";
 
 import { ProjectsCard } from "../../components/ProjectsCard";
 
@@ -87,13 +84,16 @@ export function Dashboard() {
             <ProjectsCard />
           </ContentProjects>
 
-          <h2>
-            Deseja visualizar mais projetos ? Acesse meu{" "}
-            <a href="https://github.com/mauriani">GitHub</a>
-          </h2>
-          {/* <div>
+          <Footer>
+            <h1>
+              Deseja visualizar mais projetos ? Acesse meu{" "}
+              <a href="https://github.com/mauriani">GitHub</a>
+            </h1>
+          </Footer>
+
+          <div>
             <img src={gatin} alt="" />
-          </div> */}
+          </div>
         </ContainerProjects>
       </section>
       <section id="contact"></section>

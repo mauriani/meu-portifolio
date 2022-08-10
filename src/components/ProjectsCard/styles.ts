@@ -73,6 +73,8 @@ export const Card = styled.figure`
   }
 
   @media (max-width: 768px) {
+    margin: 1rem 0rem;
+
     figure {
       margin: 1rem 0rem;
     }

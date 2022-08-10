@@ -1,4 +1,4 @@
-import toDo from "../assets/coffeeDelivery.png";
+import toDo from "../assets/todo.png";
 import rentx from "../assets/rentx.png";
 import medic from "../assets/medic.png";
 import sushi from "../assets/sushi.png";
@@ -10,6 +10,7 @@ export const ProjectsList = [
     descriptionInformation: `Esse é um projeto web desenvolvido na disciplina 
     de desenvolvimento web da faculdade ucl.Onde foi usado html, css e 
     javascript para uma página de apresentação.`,
+    url: "https://sushiyouagain.netlify.app/",
   },
 
   {
@@ -17,6 +18,7 @@ export const ProjectsList = [
     img: toDo,
     descriptionInformation: `ToDoList desenvolvido durante o primeiro modulo 
     do trilha de ReactJs da Rocketseat 2022.`,
+    url: "https://heroic-quokka-3c55ef.netlify.app/",
   },
 
   {
@@ -26,6 +28,7 @@ export const ProjectsList = [
     react native ofertado pela rocktseat. O aplicativo possibilita que o
     usuário realize o aluguel de um veículo durante um determinado
     tempo.`,
+    url: "https://github.com/mauriani/RentX",
   },
 
   {
@@ -34,5 +37,6 @@ export const ProjectsList = [
     descriptionInformation: `Esse projeto foi desenvolvido durante a disciplina 
     de PI 2 (Projeto integrador). A ideia é que o enfermeiro possa visualizar 
     ficha e horário de medicação dos pacientes através do App.`,
+    url: "https://github.com/mauriani/PI-2",
   },
 ];

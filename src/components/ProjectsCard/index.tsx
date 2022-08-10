@@ -4,8 +4,8 @@ import { ProjectsList } from "../../utils/ProjectsList";
 import { Fragment } from "react";
 
 export function ProjectsCard() {
-  const openInNewTab = (url: string) => {
-    window.open(url, "_blank", "noopener,noreferrer");
+  const handleClick = (url: string) => {
+    window.open(url);
   };
 
   return (
@@ -18,7 +18,9 @@ export function ProjectsCard() {
             <figcaption>
               <h2>Saiba mais</h2>
               <p>{item.descriptionInformation}</p>
-              <button>Mais informações</button>
+              <button onClick={() => handleClick(item.url)}>
+                Mais informações
+              </button>
             </figcaption>
           </Card>
         );
