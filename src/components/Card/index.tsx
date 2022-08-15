@@ -5,8 +5,6 @@ import { SkillList } from "../../utils/SkillsList";
 import { CardSkill, IconContainer, TextContainer } from "./styles";
 
 export function Card() {
-  console.log(SkillList);
-
   return (
     <Fragment>
       {SkillList.map((skill) => {

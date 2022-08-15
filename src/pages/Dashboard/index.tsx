@@ -102,6 +102,9 @@ export function Dashboard() {
       </section>
 
       <section id="contact">
+        <ContainerTitle>
+          <h1>Contato</h1>
+        </ContainerTitle>
         <ContainerContact>
           <div>
             <button
