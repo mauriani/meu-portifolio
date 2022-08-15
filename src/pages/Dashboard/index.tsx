@@ -1,8 +1,10 @@
+import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 import {
   ContainerDashboard,
   PhotoContainer,
   ContainerTitle,
   ContainerAbout,
+  ContainerSkills,
   ContentSkills,
   ContainerProjects,
   ContentProjects,
@@ -66,13 +68,15 @@ export function Dashboard() {
       </section>
 
       <section id="skills">
-        <ContainerTitle>
-          <h1>Habilidades</h1>
-        </ContainerTitle>
+        <ContainerSkills>
+          <ContainerTitle>
+            <h1>Habilidades</h1>
+          </ContainerTitle>
 
-        <ContentSkills>
-          <Card />
-        </ContentSkills>
+          <ContentSkills>
+            <Card />
+          </ContentSkills>
+        </ContainerSkills>
       </section>
 
       <section id="projects">
@@ -97,11 +101,24 @@ export function Dashboard() {
       <section id="contact">
         <ContainerContact>
           <div>
-            <button></button>
+            <button>
+              <BsLinkedin size={25} />
+              Linkedin
+            </button>
+
+            <button>
+              <BsInstagram size={25} />
+              Instagram
+            </button>
+
+            <button>
+              <BsGithub size={25} />
+              GitHub
+            </button>
           </div>
-          <div>
+          <footer>
             <img src={gatin} alt="" />
-          </div>
+          </footer>
         </ContainerContact>
       </section>
     </main>

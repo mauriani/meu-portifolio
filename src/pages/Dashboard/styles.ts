@@ -164,6 +164,13 @@ export const ContainerAbout = styled.div`
   }
 `;
 
+export const ContainerSkills = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem 3rem;
+`;
+
 export const ContentSkills = styled.div`
   display: flex;
   flex-direction: row;
@@ -244,5 +251,42 @@ export const FooterProjects = styled.div`
 
 export const ContainerContact = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 1rem;
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-right: 1rem;
+      width: 8rem;
+      height: 4rem;
+
+      border-radius: 10px;
+
+      border: 0;
+
+      background-color: var(--gray-850);
+
+      color: var(--gray-100);
+      svg {
+        margin-right: 0.65rem;
+        color: var(--blue-300);
+      }
+    }
+  }
+
+  footer {
+    img {
+      width: 11rem;
+      height: 9rem;
+    }
+  }
 `;
