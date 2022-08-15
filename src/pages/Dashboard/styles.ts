@@ -20,7 +20,7 @@ const FadeImage = keyframes`
     opacity: 1;
   }`;
 
-export const Container = styled.main`
+export const ContainerDashboard = styled.main`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,7 +106,7 @@ export const ContainerTitle = styled.div`
   }
 `;
 
-export const About = styled.div`
+export const ContainerAbout = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -205,7 +205,7 @@ export const ContentProjects = styled.div`
   }
 `;
 
-export const Footer = styled.div`
+export const FooterProjects = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,4 +240,9 @@ export const Footer = styled.div`
     flex-direction: column;
     width: 100%;
   }
+`;
+
+export const ContainerContact = styled.div`
+  display: flex;
+  justify-content: space-between;
 `;

@@ -1,12 +1,13 @@
 import {
-  Container,
+  ContainerDashboard,
   PhotoContainer,
   ContainerTitle,
-  About,
+  ContainerAbout,
   ContentSkills,
   ContainerProjects,
   ContentProjects,
-  Footer,
+  FooterProjects,
+  ContainerContact,
 } from "./styles";
 
 import { Header } from "../../components/Header";
@@ -23,7 +24,7 @@ export function Dashboard() {
     <main>
       <Header />
       <section id="dashboard">
-        <Container>
+        <ContainerDashboard>
           <div>
             <h1>
               😉 Ei! Eu sou <br />
@@ -34,11 +35,11 @@ export function Dashboard() {
           <PhotoContainer>
             <img src={person} alt="" object-fit="contain" />
           </PhotoContainer>
-        </Container>
+        </ContainerDashboard>
       </section>
 
       <section id="about">
-        <About>
+        <ContainerAbout>
           <ContainerTitle>
             <h1>Sobre mim</h1>
           </ContainerTitle>
@@ -61,7 +62,7 @@ export function Dashboard() {
               hoje isso é bastante diferente.
             </p>
           </div>
-        </About>
+        </ContainerAbout>
       </section>
 
       <section id="skills">
@@ -84,19 +85,24 @@ export function Dashboard() {
             <ProjectsCard />
           </ContentProjects>
 
-          <Footer>
+          <FooterProjects>
             <h1>
               Deseja visualizar mais projetos ? Acesse meu{" "}
               <a href="https://github.com/mauriani">GitHub</a>
             </h1>
-          </Footer>
+          </FooterProjects>
         </ContainerProjects>
       </section>
 
       <section id="contact">
-        <div>
-          <img src={gatin} alt="" />
-        </div>
+        <ContainerContact>
+          <div>
+            <button></button>
+          </div>
+          <div>
+            <img src={gatin} alt="" />
+          </div>
+        </ContainerContact>
       </section>
     </main>
   );
