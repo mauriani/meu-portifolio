@@ -266,7 +266,7 @@ export const ContainerContact = styled.div`
       justify-content: center;
 
       margin-right: 1rem;
-      width: 8rem;
+      width: 8.5rem;
       height: 4rem;
 
       border-radius: 10px;
@@ -276,6 +276,11 @@ export const ContainerContact = styled.div`
       background-color: var(--gray-850);
 
       color: var(--gray-100);
+
+      :hover {
+        opacity: 0.5;
+        transition: 0.2s;
+      }
       svg {
         margin-right: 0.65rem;
         color: var(--blue-300);
@@ -287,6 +292,23 @@ export const ContainerContact = styled.div`
     img {
       width: 11rem;
       height: 9rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    padding: 1rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      button {
+        margin-bottom: 0.75rem;
+      }
     }
   }
 `;

@@ -22,6 +22,9 @@ import gatin from "../../assets/gatin-rocket.png";
 import { ProjectsCard } from "../../components/ProjectsCard";
 
 export function Dashboard() {
+  const handleOpenLink = (url: string) => {
+    window.open(url);
+  };
   return (
     <main>
       <Header />
@@ -101,17 +104,27 @@ export function Dashboard() {
       <section id="contact">
         <ContainerContact>
           <div>
-            <button>
+            <button
+              onClick={() =>
+                handleOpenLink(`https://www.linkedin.com/in/maurianimaciel/`)
+              }
+            >
               <BsLinkedin size={25} />
               Linkedin
             </button>
 
-            <button>
+            <button
+              onClick={() =>
+                handleOpenLink(`https://www.instagram.com/maurianimaciel/`)
+              }
+            >
               <BsInstagram size={25} />
               Instagram
             </button>
 
-            <button>
+            <button
+              onClick={() => handleOpenLink(`https://github.com/mauriani`)}
+            >
               <BsGithub size={25} />
               GitHub
             </button>
