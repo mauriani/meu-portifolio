@@ -52,14 +52,11 @@ export const Container = styled.header`
     img {
       margin-bottom: 1rem;
     }
-
-    a {
-      padding: 0;
-    }
   }
 `;
 
 export const NavLink = styled(Link)`
+  display: block;
   text-decoration: none;
   color: var(--white);
   text-align: center;
