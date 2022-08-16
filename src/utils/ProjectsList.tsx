@@ -7,7 +7,7 @@ export const ProjectsList = [
   {
     id: 1,
     img: sushi,
-    descriptionInformation: `Esse é um projeto web desenvolvido na disciplina 
+    descriptionInformation: `Esse é um projeto que foi desenvolvido na disciplina 
     de desenvolvimento web da faculdade ucl.Onde foi usado html, css e 
     javascript para uma página de apresentação.`,
     url: "https://sushiyouagain.netlify.app/",
