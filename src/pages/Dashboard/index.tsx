@@ -38,7 +38,7 @@ export function Dashboard() {
             <p>Desenvolvedora Front-End</p>
           </div>
           <PhotoContainer>
-            <img src={person} alt="" object-fit="contain" />
+            <img src={person} alt="foto de mauriani" object-fit="contain" />
           </PhotoContainer>
         </ContainerDashboard>
       </section>
@@ -51,7 +51,7 @@ export function Dashboard() {
 
           <div>
             <div>
-              <img src={avatar} alt="" />
+              <img src={avatar} alt="foto de mauriani" />
             </div>
 
             <p>

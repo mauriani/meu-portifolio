@@ -5,7 +5,7 @@ import logo from "../../assets/rocket.svg";
 export function Header() {
   return (
     <Container>
-      <img src={logo} alt="" />
+      <img src={logo} alt="logo do projeto" />
 
       <nav>
         <ul>
