@@ -1,5 +1,7 @@
 # meu-portifolio
 
+<img src="https://user-images.githubusercontent.com/32397288/185231481-1c33f26c-98e0-407e-a9f7-6dca7c6ea616.PNG" > 
+
 ## 🚀 Sobre o projeto
 
 Eii, galera !! Semanas atrás inicie a trilha de reactjs do ignite, e para fundamentar o que estou estudando me propus a fazer alguns projetos. 
