@@ -37,7 +37,7 @@ export const ProjectsList = [
     img: coffeeDelivery,
     descriptionInformation: `Esse projeto foi desenvolvido durante o segundo módulo de reactjs. 
     O projeto possibilitado o uso de ferramentas com api context, json server, local storage e etc.`,
-    url: "https://github.com/mauriani/PI-2",
+    url: "https://github.com/mauriani/coffee-delivery.git",
   },
 
   {
