@@ -9,7 +9,7 @@ import goFinances from "../assets/goFinances.jpg";
 export const ProjectsList = [
   {
     id: "keen-slider__slide number-slide1",
-    img: toDo,
+    img: "https://user-images.githubusercontent.com/32397288/182157886-6549dcff-ae68-44a3-9b26-4f1298bd2d32.PNG",
     descriptionInformation: `ToDoList desenvolvido durante o primeiro modulo 
     do trilha de ReactJs da Rocketseat 2022.`,
     url: "https://heroic-quokka-3c55ef.netlify.app/",
