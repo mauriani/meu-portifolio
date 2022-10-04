@@ -1,4 +1,4 @@
-import { useState, useEffect, Fragment } from "react";
+import { Fragment } from "react";
 import { Card } from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
@@ -20,8 +20,8 @@ export function ProjectsCard() {
       },
       "(min-width: 1280px)": {
         slides: {
-          perView: 4,
-          spacing: 12,
+          perView: 5,
+          spacing: 15,
         },
       },
     },
