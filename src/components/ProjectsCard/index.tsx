@@ -21,7 +21,7 @@ export function ProjectsCard() {
       "(min-width: 1280px)": {
         slides: {
           perView: 5,
-          spacing: 15,
+          spacing: 25,
         },
       },
     },
