@@ -1,4 +1,4 @@
-import todo from "../assets/todo.png";
+import todoImg from "../assets/projectTodo.png";
 import rentx from "../assets/rentx.png";
 import medic from "../assets/medic.png";
 import sushi from "../assets/sushi.png";
@@ -9,7 +9,7 @@ import goFinances from "../assets/goFinances.png";
 export const ProjectsList = [
   {
     id: "keen-slider__slide number-slide1",
-    img: todo,
+    img: todoImg,
     descriptionInformation: `ToDoList desenvolvido durante o primeiro modulo 
     do trilha de ReactJs da Rocketseat 2022.`,
     url: "https://heroic-quokka-3c55ef.netlify.app/",
