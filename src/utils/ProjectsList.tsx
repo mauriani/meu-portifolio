@@ -1,4 +1,3 @@
-import toDo from "../assets/todo.png";
 import rentx from "../assets/rentx.png";
 import medic from "../assets/medic.png";
 import sushi from "../assets/sushi.png";
