@@ -3,7 +3,7 @@ import { Card } from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
-import { ProjectsList } from "../../utils/ProjectsList";
+import { projectsList } from "../../utils/ProjectsList";
 
 export function ProjectsCard() {
   const handleClick = (url: string) => {
@@ -15,13 +15,12 @@ export function ProjectsCard() {
       "(min-width: 768px)": {
         slides: {
           perView: 1,
-          spacing: 12,
         },
       },
       "(min-width: 1280px)": {
         slides: {
-          perView: 4,
-          spacing: 20,
+          perView: 3,
+          spacing: 30,
         },
       },
     },
@@ -29,8 +28,8 @@ export function ProjectsCard() {
 
   return (
     <Fragment>
-      <div ref={ref} className="keen-slider">
-        {ProjectsList.map((item) => {
+      <div ref={ref} className="keen-slider" style={{ paddingLeft: 16 }}>
+        {projectsList.map((item) => {
           return (
             <div className={item.id} key={item.id}>
               <Card>

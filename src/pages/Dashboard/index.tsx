@@ -20,6 +20,7 @@ import avatar from "../../assets/avatar.png";
 import gatin from "../../assets/gatin-rocket.png";
 
 import { ProjectsCard } from "../../components/ProjectsCard";
+import { MyProjects } from "../../components/MyProjects";
 
 export function Dashboard() {
   const handleOpenLink = (url: string) => {
@@ -89,7 +90,7 @@ export function Dashboard() {
           </ContainerTitle>
 
           <ContentProjects>
-            <ProjectsCard />
+            <MyProjects />
           </ContentProjects>
 
           <FooterProjects>

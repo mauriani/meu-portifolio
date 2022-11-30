@@ -199,8 +199,10 @@ export const ContainerProjects = styled.div`
 
 export const ContentProjects = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  min-height: 30rem;
 
   margin: 2rem 0;
 

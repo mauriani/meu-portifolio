@@ -5,7 +5,7 @@ export const Card = styled.figure`
   align-items: center;
   justify-content: center;
 
-  width: 300px;
+  width: 400px;
   height: 380px;
   border-radius: 10px;
   position: relative;
