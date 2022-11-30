@@ -19,7 +19,6 @@ import person from "../../assets/mauriani.png";
 import avatar from "../../assets/avatar.png";
 import gatin from "../../assets/gatin-rocket.png";
 
-import { ProjectsCard } from "../../components/ProjectsCard";
 import { MyProjects } from "../../components/MyProjects";
 
 export function Dashboard() {
