@@ -11,12 +11,14 @@ export function MyProjects() {
     breakpoints: {
       "(min-width: 768px)": {
         slides: {
-          perView: 1,
+          perView: 2,
+          spacing: 15,
         },
       },
       "(min-width: 1280px)": {
         slides: {
           perView: 3,
+          spacing: 10,
         },
       },
     },

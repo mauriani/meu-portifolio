@@ -5,7 +5,6 @@ export const Card = styled.div`
   height: 25rem;
 
   border-radius: 5px;
-  margin-left: 1rem;
 
   background-color: var(--gray-900);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -17,6 +16,10 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  first-child {
+    margin-left: 0.3rem;
+  }
 
   div {
     width: 100%;
