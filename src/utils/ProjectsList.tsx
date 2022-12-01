@@ -4,13 +4,27 @@ import rentx from "../assets/rentx.png";
 import nlwSports from "../assets/nlw-sports.png";
 import coffeeDelivery from "../assets/coffeeDelivery.png";
 import goFinances from "../assets/goFinances.png";
+import copa from "../assets/copa.png";
+import gitBlog from "../assets/githubBlog.png";
 
 export const projectsList = [
+  {
+    id: "e0e1010e-3e64-49ac-8264-89f2a52bb2b3",
+    img: gitBlog,
+    descriptionInformation: `Aplicação desenvolvido durante a trilha de react js, uma aplicação que utilizará da API do GitHub para buscar issues de um repositório, dados do seu perfil e exibir elas como um blog.`,
+    url: "https://github-blog-mauriani.netlify.app/",
+  },
+  {
+    id: "dfb768e0-470b-4d59-b92c-81e219f26a4a",
+    img: copa,
+    descriptionInformation: `Essa aplicação foi desenvolvida durante a nwl 2022, o projeto consiste na criação de bolões para a copa.`,
+    url: "https://github.com/mauriani/nlw-copa",
+  },
   {
     id: "ea835ed3-4367-49f9-ae5e-1983b1b30520",
     img: fallImg,
     descriptionInformation: `Projeto foi desenvolvido para detectar a queda do idoso, enviar os batimentos cardíacos e o nível de oxigênio atraves de uma pulseira. A pulseira envia os dados dos sensores e o aplicativo emite um alerta de queda.`,
-    url: "https://heroic-quokka-3c55ef.netlify.app/",
+    url: "https://github.com/mauriani/fallalert",
   },
 
   {
