@@ -21,10 +21,6 @@ export function MyProjects() {
         loop: true,
         mode: "free",
         slides: { perView: 2.5, spacing: 15 },
-        range: {
-          min: -5,
-          max: 5,
-        },
       },
     },
   });
