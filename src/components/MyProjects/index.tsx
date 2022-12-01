@@ -16,9 +16,12 @@ export function MyProjects() {
         },
       },
       "(min-width: 1280px)": {
-        slides: {
-          perView: 3,
-          spacing: 10,
+        loop: true,
+        mode: "free",
+        slides: { perView: 2.5, spacing: 15 },
+        range: {
+          min: -5,
+          max: 5,
         },
       },
     },

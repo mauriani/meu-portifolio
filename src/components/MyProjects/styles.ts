@@ -17,9 +17,9 @@ export const Card = styled.div`
   justify-content: center;
   align-items: center;
 
-  first-child {
+  /* first-child {
     margin-left: 0.3rem;
-  }
+  } */
 
   div {
     width: 100%;
