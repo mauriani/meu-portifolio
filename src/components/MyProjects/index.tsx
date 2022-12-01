@@ -19,7 +19,7 @@ export function MyProjects() {
       },
       "(min-width: 1280px)": {
         // loop: true,
-        // mode: "free",
+        mode: "free",
         slides: { perView: 2.5, spacing: 15 },
       },
     },
