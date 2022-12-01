@@ -1,4 +1,5 @@
 import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
+import { BiExport } from "react-icons/bi";
 import {
   ContainerDashboard,
   PhotoContainer,
@@ -25,6 +26,7 @@ export function Dashboard() {
   const handleOpenLink = (url: string) => {
     window.open(url);
   };
+
   return (
     <main>
       <Header />
@@ -93,10 +95,13 @@ export function Dashboard() {
           </ContentProjects>
 
           <FooterProjects>
-            <h1>
-              Deseja visualizar mais projetos ? Acesse meu{" "}
-              <a href="https://github.com/mauriani">GitHub</a>
-            </h1>
+            <h1>Deseja visualizar mais projetos ? Acesse meu</h1>
+            <button
+              onClick={() => handleOpenLink(`https://github.com/mauriani`)}
+            >
+              github
+              <BiExport size={20} style={{ marginLeft: 8 }} />
+            </button>
           </FooterProjects>
         </ContainerProjects>
       </section>

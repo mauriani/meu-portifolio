@@ -225,22 +225,33 @@ export const FooterProjects = styled.div`
   h1 {
     font-size: 1rem;
     font-weight: 300;
+  }
 
-    a {
-      text-decoration: none;
-      color: var(--purple-300);
-      text-align: center;
-      font-size: 1rem;
-      font-weight: 700;
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    padding: 3px;
 
-      cursor: pointer;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: transparent;
 
-      :hover {
-        background-color: var(--purple-300);
-        color: var(--gray-100);
-        transition: 0.2s;
-        padding: 1rem;
-      }
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--blue-300);
+
+    width: auto;
+    height: auto;
+    cursor: pointer;
+
+    :hover {
+      border-color: var(--blue-300);
+      border-bottom-style: solid;
+      border-bottom-width: thin;
     }
   }
 
