@@ -10,8 +10,10 @@ export function MyProjects() {
   const [sliderRef] = useKeenSlider({
     breakpoints: {
       "(min-width: 768px)": {
+        loop: true,
+        mode: "free",
         slides: {
-          perView: 2,
+          perView: 1.5,
           spacing: 15,
         },
       },
